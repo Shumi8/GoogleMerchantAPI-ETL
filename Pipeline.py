@@ -1,16 +1,3 @@
-# Databricks notebook source
-dbutils.widgets.removeAll()
-
-# COMMAND ----------
-
-dbutils.widgets.dropdown('DatalakeEnvironment', 'Development', ['Development', 'Production'])
-dbutils.widgets.dropdown('DatabricksWorkspace', 'Development', ['Development', 'Production'])
-dbutils.widgets.dropdown('AccessLevel', 'GDPR-Restricted', ['GDPR-Restricted', 'GDPR-UnRestricted'])
-
-DATABRICKS_WORKSPACE = dbutils.widgets.get('DatabricksWorkspace')
-DATALAKE_ENVIRONMENT = dbutils.widgets.get('DatalakeEnvironment')
-ACCESS_LEVEL = dbutils.widgets.get('AccessLevel')
-
 # COMMAND ----------
 
 # MAGIC %run ../../Utilities/Configuration
