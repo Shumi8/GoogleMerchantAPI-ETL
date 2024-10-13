@@ -1,6 +1,6 @@
-# ETL Pipeline for Google Merchant Data in Retail Organization
+# ETL Pipeline for Google Merchant Data for a Retail Organization
 
-This repository contains an **ETL pipeline** developed for Denmark's largest retail organization to process **Google Merchant data** on Databricks. The pipeline extracts, transforms, and loads (ETL) various data sources such as top brands, top products, price benchmarks, and page metrics across multiple layers (Raw to Bronze, Bronze to Silver, Silver to Gold). It enables insights into product demand, brand performance, and other key business metrics.
+This repository contains an **ETL pipeline** developed for a retail organization to process **Google Merchant data** on Databricks. The pipeline extracts, transforms, and loads (ETL) various data sources such as top brands, top products, price benchmarks, and page metrics across multiple layers (Raw to Bronze, Bronze to Silver, Silver to Gold). It enables insights into product demand, brand performance, and other key business metrics.
 
 ## Features
 
